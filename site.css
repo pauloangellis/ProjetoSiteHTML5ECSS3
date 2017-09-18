@@ -17,6 +17,7 @@ main h1{
 	text-align: center;
 	padding: 25px;
 	border-bottom: 10px solid black;
+	font-size: 60px;
 
 }
 main a{
@@ -26,16 +27,18 @@ main div{
 	width: 720px;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 30px 0;
 }
 p{
 	text-align: justify;
+	margin: 20px 0;
 }
 blockquote{
 	background-color: #d3ddd4;
 	padding: 16px;
 	border: 10px solid #c2ccca;
 	width: 250px;
-	margin: 0;
+	margin: 20px 40px;
 	box-sizing: border-box;
 }
 cite{
@@ -53,6 +56,11 @@ aside a{
 	font-family: "Open Sans Condensed", sans-serif;
 }
 
+aside h1{
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
 footer{
 	background-color: #000000;
 	color: #f2fffc;
@@ -60,4 +68,13 @@ footer{
 
 nav a{
 	color: #f2fffc;
+}
+strong {
+	font-weight: bold;
+}
+em{
+	font-style: 30px;
+}
+h2{
+	font-size: 30px;
 }
