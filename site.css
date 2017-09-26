@@ -1,83 +1,98 @@
-body{
+body {
 	font-family: "Crimson Text", "Times New Roman", serif;
-	background-color: #f2fffc;
+	background-color: #F2FFFC;
+	font-size: 120%;
 	line-height: 1.5;
 }
-h1,h2{
-	font-family: "Open Sans Condensed", "Arial",sans-serif;
-	margin: 0;
 
+h1, h2 {
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
-blockquote, aside, footer{
-	padding: 20px;
-}
-main h1{
-	background-color: #851944;
-	color: #ffffff;
+
+.titulo-principal {
 	text-align: center;
+	background-color: #851944;
+	color: #FFF;
 	padding: 25px;
 	border-bottom: 10px solid black;
 	font-size: 60px;
+}
 
-}
-main a{
-	color: #851944;
-}
-main div{
-	width: 720px;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 30px 0;
-}
-p{
+p {
 	text-align: justify;
 	margin: 20px 0;
 }
-blockquote{
-	background-color: #d3ddd4;
-	padding: 16px;
-	border: 10px solid #c2ccca;
+
+.citacao-bio {
+	background-color: #D9E5E3;
+	border: 10px solid #C2CCCA;
 	width: 250px;
-	margin: 20px 40px;
 	box-sizing: border-box;
-}
-cite{
-	background-color: #d9e5e3;
+	margin: 20px 40px;
 }
 
-aside{
+.navegacao-site {
 	text-align: center;
-	background-color: #3c1d3d;
-	color: #f2fffc;
-	padding: 20px;
+	background-color: #3C1D3D;
+	color: #F2FFFC;
 }
-aside a{
+
+.rodape-pagina {
+	background-color: #000;
+	color: #F2FFFC;
+}
+
+main a {
+	color: #851944;
+}
+
+.navegacao-site a {
 	color: inherit;
 	font-family: "Open Sans Condensed", sans-serif;
 }
 
-aside h1{
+.citacao-bio, .navegacao-site, .rodape-pagina {
+    padding: 20px;
+}
+
+.container {
+	width: 720px;
+	margin: auto;
+	padding: 30px 0;
+}
+
+.navegacao-site h1 {
 	font-size: 30px;
 	margin-bottom: 25px;
 }
-aside li{
-	display: inline-block;
-}
 
-footer{
-	background-color: #000000;
-	color: #f2fffc;
-}
-
-nav a{
-	color: #f2fffc;
-}
 strong {
 	font-weight: bold;
 }
-em{
-	font-style: 30px;
+
+em {
+	font-style: italic;
 }
-h2{
+
+.subtitulo-texto {
 	font-size: 30px;
+}
+
+.icones-redes-sociais li {
+	display: inline-block;
+}
+
+.artigo {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+
+.leia-mais {
+	padding: 8px;
+	margin: 16px;
+	display: block;
+	font-size: 24px;
+	text-align: center;
+	background-color: #E6E7E8;
 }
